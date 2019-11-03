@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Mi Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body oncontextmenu='return false' onkeydown='return false' onselectstart='return false' ondragstart="return false">
+<!-- Barra de navegacion -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <!-- Icono Menu  -->
+  <div class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()">
+    <div class = "barra1" style="width: 35px; height: 3px; background-color: white;margin: 6px 0;"></div>
+    <div class = "barra2" style="width: 35px; height: 3px; background-color: white;margin: 6px 0;"></div>
+    <div class = "barra3" style="width: 35px; height: 3px; background-color: white;margin: 6px 0;"></div>
+  </div>
+    <!-- Boton de ir arriba -->
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+
+    <a href="#Fixture" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FIXTURE</a>
+    <a href="#campeones" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CAMEPONES </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTO</a>
+    <!-- Whatsapp -->
+    <a href="https://api.whatsapp.com/send?phone=+543815131233&text=mensaje" class="w3-bar-item w3-button w3-padding-large w3-hide-small">WHATSAPP</a>
+    </div>
+  </div>
+</div>
+<!-- Barra de Navegacion en Pantalla Chica -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#campeones" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EQUIPOS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTO</a>
+</div>
+
+<!-- Contenido de Pagina -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Slideshow de imagenes (Imagenes que se mueven, donde va el fixture) -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Imagenes/Slideshow1.jpg" style="width:70%; max-height: 600px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3 style="color: white; font-size: 55px; font-weight: bold;">60% DESCUENTO VALIDO HASTA EL 10/12/19</h3>    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Imagenes/Slideshow2.jpg" style="width:50%; max-height: 600px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3 style="color: white; font-size: 55px; font-weight: bold;">60% DESCUENTO VALIDO HASTA EL 10/12/19</h3>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Imagenes/Slideshow3.jpg" style="width:70%; max-height: 600px;">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3 style="color: white; font-size: 55px; font-weight: bold;">60% DESCUENTO VALIDO HASTA EL 10/12/19</h3>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+      <img src="Imagenes/Slideshow4.jpg" style="width:70%; max-height: 600px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 style="color: white; font-size: 55px; font-weight: bold;">60% DESCUENTO VALIDO HASTA EL 10/12/19</h3>
+      </div>
+   </div>
+   <div class="mySlides w3-display-container w3-center">
+      <img src="Imagenes/Slideshow5.jpg" style="width:70%; max-height: 600px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h3 style="color: white; font-size: 55px; font-weight: bold;">60% DESCUENTO VALIDO HASTA EL 10/12/19</h3>
+      </div>
+    </div>
+
+  <!-- La seccion del torneo -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Fixture">
+    <h2 class="w3-wide">TORNEO BPLV</h2>
+    <p class="w3-justify" style="color: blue">El torneo bplv fue creado en 2017 por 3 amigos, con el fin de fomentar el deporte y el compañerismo, y ademas para divertir a los mas chicos en un buen ambiente de amistad. </p>
+    <!-- Galeria de Imagenes -->
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Fixture 1</p>
+        <img src="Imagenes/Fixture1.jpg" class="w3-round w3-margin-bottom"  style="width:60%">
+      </div>
+      <div class="w3-third" >
+        <p style="font-weight: bold;">COPA ORO</p>
+        <!-- Imagen con link -->
+      <a href="https://www.w3schools.com">
+        <img style="height: 280px;" src="Imagenes/Fecha1.jpg" class="w3-round w3-margin-bottom"  style="width:60%">
+      </a>
+      </div>
+      <div class="w3-third">
+        <p>Final Bronce</p>
+        <img src="Imagenes/Fecha2.jpg" class="w3-round w3-margin-bottom"  style="width:60%">
+      </div>
+    </div>
+  </div>
+    <!-- La seccion de los campeones -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="campeones">
+      <h2 class="w3-wide">CAMPEONES!</h2>
+      <!-- Galeria de Imagenes -->
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <p>Con Zeta</p>
+          <img style="height: 150px;" src="Imagenes/Campeones8.jpg" class="w3-round w3-margin-bottom"  style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p>La garra</p>
+          <img src="Imagenes/Campeones4.jpg" class="w3-round w3-margin-bottom"  style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p> Drink Team</p>
+          <img src="Imagenes/Campeones3.jpg" class="w3-round"  style="width:60%">
+        </div>
+    </div>
+  <!-- La seccion de Contacto -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACTO</h2>
+    <p class="w3-opacity w3-center"><i>Mandanos un mensaje!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <!-- Listas ordenadas y desordenadas -->
+        <ul><i class="fa fa-map-marker" style="width:30px"></i> Tucuman, Yerba Buena<br></ul>
+        <ul><i class="fa fa-phone" style="width:30px"></i> Numero: +00 151515<br></ul>
+        <li><i class="fa fa-envelope" style="width:30px"> </i> Email: torneosbplv@gmail.com<br></li>
+      
+      </div>
+      <div class="w3-col m6">
+        <!-- Formulario -->
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Cargar los font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Sticky Social Bar -->
+<div class="icon-bar">
+  <a href="https://facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://youtube.com" class="youtube"><i class="fa fa-youtube"></i></a>
+  <a href="https://www.instagram.com/torneosbplv/" class="instagram"><i class="fa fa-instagram"></i></a>
+</div>
+<!-- Mapa -->
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJNYDacPbCEY0p5k904G3aavAAZiNs4J0&callback=myMap">
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(15, 4274),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<!-- Final del contenido -->
+</div>
+
+
+<!-- Final Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+</footer>
+
+<script >
+// Alerta 
+  alert("Bienvenido a mi pagina");
+// Slideshow automatico
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+// Click en el icono del Menu
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
